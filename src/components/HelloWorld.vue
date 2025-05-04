@@ -17,24 +17,16 @@
               Problem
             </v-expansion-panel-title>
             <v-expansion-panel-text>
-              In traditional therapy settings, much of the therapeutic work happens between sessions—but patients often lack the structure, support,
-              or resources needed to stay engaged on their own. This gap makes it difficult for them to follow through on therapy-related tasks like
-              journaling, practicing coping techniques, or completing educational materials. At the same time, providers have limited visibility into
-              a patient’s activity outside of appointments, which can hinder their ability to monitor progress, tailor care, or ensure accountability.
-              Without a centralized way to assign, track, and reinforce therapy concepts, valuable opportunities for growth and reflection are lost,
-              and administrative burdens on providers increase.
+              {{ problem }}
             </v-expansion-panel-text>
           </v-expansion-panel>
+
           <v-expansion-panel>
             <v-expansion-panel-title class="d-flex text-center text-wrap card-background" style="color: white;">
               Solution
             </v-expansion-panel-title>
             <v-expansion-panel-text>
-              MENDmate is a mobile-first, web-based solution designed to bridge the gap between therapy sessions and real-world application.
-              It supports both patients and providers by offering a structured, yet flexible environment for therapeutic growth.
-              For patients, it serves as a central hub to access and complete assigned educational resources, track their thoughts
-              and wellness trends, and build awareness through reflection. For providers, MENDmate streamlines the process of assigning
-              homework—such as readings, breathwork, or videos—and provides visibility into patient engagement and progress.
+              {{ solution }}
 
             </v-expansion-panel-text>
           </v-expansion-panel>
@@ -42,6 +34,9 @@
             <v-expansion-panel-title>
               Documentation
             </v-expansion-panel-title>
+            <v-expansion-panel-text>
+              <v-btn v-for="document in documents" :key="document.document" class="ma-2" style="background-color: #08b6aa; color: white;">{{ document.document }}</v-btn>
+            </v-expansion-panel-text>
           </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-title class="d-flex text-center text-wrap card-background" style="color: white;">
@@ -92,11 +87,23 @@
           { document: 'Use Cases', link: '' },
           { document: 'Business Rules', link: '' },
           { document: 'Software Development Plan', link: '' },
-          { document: 'Software Requirements Specification', link: '' },
+          { document: 'Software Requirement Specs', link: '' },
           { document: 'User Acceptance Test Cases', link: '' },
           { document: 'User\'s Manual', link: '' },
 
         ],
+        problem: 'In traditional therapy settings, much of the therapeutic work happens between sessions—but patients often lack the structure, support,\n'+
+          'or resources needed to stay engaged on their own. This gap makes it difficult for them to follow through on therapy-related tasks like\n'+
+          'journaling, practicing coping techniques, or completing educational materials. At the same time, providers have limited visibility into\n'+
+          'a patient’s activity outside of appointments, which can hinder their ability to monitor progress, tailor care, or ensure accountability.\n'+
+          'Without a centralized way to assign, track, and reinforce therapy concepts, valuable opportunities for growth and reflection are lost,\n'+
+          'and administrative burdens on providers increase.',
+        solution: 'In traditional therapy settings, much of the therapeutic work happens between sessions—but patients often lack the structure, support,\n'+
+          'or resources needed to stay engaged on their own. This gap makes it difficult for them to follow through on therapy-related tasks like\n'+
+          'journaling, practicing coping techniques, or completing educational materials. At the same time, providers have limited visibility into\n'+
+          'a patient’s activity outside of appointments, which can hinder their ability to monitor progress, tailor care, or ensure accountability.\n'+
+          'Without a centralized way to assign, track, and reinforce therapy concepts, valuable opportunities for growth and reflection are lost,\n'+
+          'and administrative burdens on providers increase.',
       }
     },
   }
