@@ -98,12 +98,12 @@
           'a patient’s activity outside of appointments, which can hinder their ability to monitor progress, tailor care, or ensure accountability.\n'+
           'Without a centralized way to assign, track, and reinforce therapy concepts, valuable opportunities for growth and reflection are lost,\n'+
           'and administrative burdens on providers increase.',
-        solution: 'In traditional therapy settings, much of the therapeutic work happens between sessions—but patients often lack the structure, support,\n'+
-          'or resources needed to stay engaged on their own. This gap makes it difficult for them to follow through on therapy-related tasks like\n'+
-          'journaling, practicing coping techniques, or completing educational materials. At the same time, providers have limited visibility into\n'+
-          'a patient’s activity outside of appointments, which can hinder their ability to monitor progress, tailor care, or ensure accountability.\n'+
-          'Without a centralized way to assign, track, and reinforce therapy concepts, valuable opportunities for growth and reflection are lost,\n'+
-          'and administrative burdens on providers increase.',
+        solution: 'MENDmate is a mobile-first, web-based platform designed to close the gap between therapy sessions by supporting both patient \n'+
+          'engagement and provider oversight. It gives patients a structured space to access and complete educational resources, reflect through daily \n' +
+          'journaling, and track their wellness over time—all while reinforcing key therapy concepts. For providers, MENDmate offers tools to assign tasks, \n' +
+          'monitor patient progress, and personalize care with ease. By streamlining communication, simplifying homework management, and visualizing engagement \n' +
+          'trends, MENDmate transforms passive therapy follow-up into an active, accountable, and measurable part of the healing process.'
+        ,
       }
     },
   }
