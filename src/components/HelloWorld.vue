@@ -86,6 +86,17 @@
           { name: 'Amaya Harris', imgSrc: '/Amaya.PNG', role: 'Frontend Developer', key: 'A3' },
           { name: 'Peter Ho', imgSrc: '/Peter.jpeg', role: 'Full Stack Developer', key: 'P1' },
         ],
+        documents: [
+          { document: 'Glossary', link: '' },
+          { document: 'Vision & Scope', link: '' },
+          { document: 'Use Cases', link: '' },
+          { document: 'Business Rules', link: '' },
+          { document: 'Software Development Plan', link: '' },
+          { document: 'Software Requirements Specification', link: '' },
+          { document: 'User Acceptance Test Cases', link: '' },
+          { document: 'User\'s Manual', link: '' },
+
+        ],
       }
     },
   }
