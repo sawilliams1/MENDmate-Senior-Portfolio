@@ -57,7 +57,8 @@
                   :key="member.key"
                   class="v-col"
                   cols="12"
-                  lg="6"
+                  lg="4"
+                  sm="5"
                 >
                   <div class="d-flex justify-center">
                     <avatar-card :img-src="member.imgSrc" :name="member.name" :role="member.role" />
@@ -97,6 +98,7 @@
           { document: 'Software Requirement Specs', link: 'MENDmate Software Requirements Specification (SRS).pdf' },
           { document: 'User Acceptance Test Cases', link: 'MENDmate User Acceptance Tests (UAT).pdf' },
           { document: 'User\'s Manual', link: 'MENDmate User Manual_NF_v3 (with pictures) 1.pdf' },
+          { document: 'Browser Guide', link: 'MENDmate Browser guide v1.pdf' },
 
         ],
         problem: 'In traditional therapy settings, much of the therapeutic work happens between sessions—but patients often lack the structure, support,\n'+

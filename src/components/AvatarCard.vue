@@ -7,7 +7,7 @@
     <v-avatar
       color="#ff6d44"
       rounded="0"
-      size="200"
+      size="100"
     >
       <v-img :src="`${picture}`" />
     </v-avatar>
@@ -15,7 +15,6 @@
       class="role-background"
       :subtitle="role"
       :title="name"
-      width="200"
     />
   </v-card>
 </template>
