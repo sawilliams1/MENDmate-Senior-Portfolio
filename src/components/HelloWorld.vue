@@ -35,7 +35,14 @@
               Documentation
             </v-expansion-panel-title>
             <v-expansion-panel-text>
-              <v-btn v-for="document in documents" :key="document.document" class="ma-2" style="background-color: #08b6aa; color: white;">{{ document.document }}</v-btn>
+              <v-btn
+                v-for="document in documents"
+                :key="document.document"
+                class="ma-2"
+                :href="document.link"
+                style="background-color: #08b6aa; color: white;"
+                target="_blank"
+              >{{ document.document }}</v-btn>
             </v-expansion-panel-text>
           </v-expansion-panel>
           <v-expansion-panel>
@@ -82,14 +89,14 @@
           { name: 'Peter Ho', imgSrc: '/Peter.jpeg', role: 'Full Stack Developer', key: 'P1' },
         ],
         documents: [
-          { document: 'Glossary', link: '' },
-          { document: 'Vision & Scope', link: '' },
-          { document: 'Use Cases', link: '' },
-          { document: 'Business Rules', link: '' },
-          { document: 'Software Development Plan', link: '' },
-          { document: 'Software Requirement Specs', link: '' },
-          { document: 'User Acceptance Test Cases', link: '' },
-          { document: 'User\'s Manual', link: '' },
+          { document: 'Glossary', link: 'MENDmate Glossary.pdf' },
+          { document: 'Vision & Scope', link: 'MENDmate Vision and Scope.pdf' },
+          { document: 'Use Cases', link: 'MENDmate Use Cases.pdf' },
+          { document: 'Business Rules', link: 'MENDmate Business Rules.pdf' },
+          { document: 'Software Development Plan', link: 'MENDmate Software Development Plan.pdf' },
+          { document: 'Software Requirement Specs', link: 'MENDmate Software Requirements Specification (SRS).pdf' },
+          { document: 'User Acceptance Test Cases', link: 'MENDmate User Acceptance Tests (UAT).pdf' },
+          { document: 'User\'s Manual', link: 'MENDmate User Manual_NF_v3 (with pictures) 1.pdf' },
 
         ],
         problem: 'In traditional therapy settings, much of the therapeutic work happens between sessions—but patients often lack the structure, support,\n'+
