@@ -81,13 +81,13 @@
     data (){
       return {
         team: [
-          { name: 'Ros Shelashskyi', imgSrc: '/Ros.PNG', role: 'Team Lead', key: 'R1' },
-          { name: 'Aaron Swinney', imgSrc: '/Aaron.PNG', role: 'Documentation Lead', key: 'A1' },
-          { name: 'Vishal Seelam', imgSrc: '/Vishal.jpeg', role: 'Frontend Developer', key: 'V1' },
-          { name: 'Alvie Thai', imgSrc: '/Alvie.jpeg', role: 'Frontend Developer', key: 'A2' },
-          { name: 'Samuel Williams', imgSrc: '/Sam.PNG', role: 'Scrum Master', key: 'S1' },
-          { name: 'Amaya Harris', imgSrc: '/Amaya.PNG', role: 'Frontend Developer', key: 'A3' },
-          { name: 'Peter Ho', imgSrc: '/Peter.jpeg', role: 'Full Stack Developer', key: 'P1' },
+          { name: 'Ros Shelashskyi', imgSrc: 'Ros.PNG', role: 'Team Lead', key: 'R1' },
+          { name: 'Aaron Swinney', imgSrc: 'Aaron.PNG', role: 'Documentation Lead', key: 'A1' },
+          { name: 'Vishal Seelam', imgSrc: 'Vishal.jpeg', role: 'Frontend Developer', key: 'V1' },
+          { name: 'Alvie Thai', imgSrc: 'Alvie.jpeg', role: 'Frontend Developer', key: 'A2' },
+          { name: 'Samuel Williams', imgSrc: 'Sam.PNG', role: 'Scrum Master', key: 'S1' },
+          { name: 'Amaya Harris', imgSrc: 'Amaya.PNG', role: 'Frontend Developer', key: 'A3' },
+          { name: 'Peter Ho', imgSrc: 'Peter.jpeg', role: 'Full Stack Developer', key: 'P1' },
         ],
         documents: [
           { document: 'Glossary', link: 'MENDmate Glossary.pdf' },
